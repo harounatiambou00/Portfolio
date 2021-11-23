@@ -1,1 +1,10 @@
+.HeroSection{
+  background: url(./assets/herosection.jpg) no-repeat;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 89vh;
+}
+
 
