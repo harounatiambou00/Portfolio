@@ -1,17 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
+import Typed from 'react-typed';
 
-const Brand = styled.div`
-    font-family: "Nosifer", cursive;
-    font-weight: bolder;
-    color: #FFA41B;
-`
 
 const Header = styled.div`
     background-color: #1A2238;
     margin : 0px;
     font-family : "Audiowide", sans-serif;
     color : #CDD0CB;
+    z-index: 999999999;
 `
 
 const Navbar = () => {
@@ -20,7 +17,13 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-dark">
             <div className="container p-0">
                 <a className="navbar-brand" href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">
-                    <Brand className="fs-2">TIAMTECH</Brand>
+                   <Typed 
+                        className="Brand"
+                        strings={["Harouna", "TIAMBOU", "Abdoul", "Wahabou"]}
+                        typeSpeed = {40}
+                        backSpeed = {60}
+                        loop
+                   /> 
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -41,6 +44,14 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item mx-2">
                             <a className="nav-link" href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">Contact Me</a>
+                        </li>
+                        <li className="nav-item mx-2" id="Social_Media_Icons">
+                            <div className="LinkedIn_Icon">
+                                <a href="https://www.linkedin.com/in/abdoul-wahabou-harouna-tiambou-475099210/"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <div className="Github_Icon">
+                                <a href="https://github.com/harounatiambou00/Portfolio"><i class="fab fa-github"></i></a>
+                            </div>
                         </li>
                     </ul>
                 </div>

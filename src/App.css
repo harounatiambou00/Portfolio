@@ -1,10 +1,128 @@
+/*Navbar*/
+.LinkedIn_Icon a{
+  color: #0072b1;
+}
+
+.LinkedIn_Icon a:hover{
+  text-decoration: none;
+  color: #0072b1;
+}
+
+.Github_Icon a{
+  color: white;
+}
+
+.Github_Icon a:hover{
+  text-decoration: none;
+  color:white;
+}
+
+
 .HeroSection{
   background: url(./assets/herosection.jpg) no-repeat;
-  position: relative;
   width: 100%;
   background-size: cover;
   background-position: center;
   height: 89vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Genos", sans-serif;
+  color: #F9F9F9;
+  text-align: center;
+}
+
+.Description{
+  border-radius: 10px;
+  padding: 2%;
+  backdrop-filter: blur(0.5px);
+  background: rgba(26, 34, 56, 0.6);
 }
 
 
+
+.Brand{
+  font-family: "Nosifer", cursive;
+    color: #FFA41B;
+    font-size: 2em;
+}
+
+/*Check My Work Button*/
+.wrapper{
+  display: inline-block;
+  margin-top: 1%;
+}
+
+.wrapper .CheckMyWorkButton{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+.wrapper .CheckMyWorkButton span{
+  height: 70px;
+  width: 70px;
+  display: block;
+  background-color: #FFA41B;
+  box-sizing: border-box;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px 1px #FFA41B;
+  position: relative;
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.wrapper .CheckMyWorkButton span i{
+  line-height: 70px;
+  font-size: 40px;
+  cursor: pointer;
+  color: #1A2238;
+}
+
+.wrapper .CheckMyWorkButton .CheckMyWorkButtonLabel{
+  background-color: #FFA41B;
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin-bottom: 5%;
+  height: 50px;
+  pointer-events: none;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #1A2238;
+}
+
+.wrapper .CheckMyWorkButton:hover span{
+  background-color: #1A2238;
+  box-shadow: 1px 1px 1px 1px #1A2238;
+}
+
+.wrapper .CheckMyWorkButton:hover span i{
+  color: #FFA41B;
+}
+
+.wrapper .CheckMyWorkButton:hover .CheckMyWorkButtonLabel{
+  opacity: 1;
+  top: -70px;
+  pointer-events: auto;
+}
+
+.wrapper .CheckMyWorkButton .CheckMyWorkButtonLabel::before{
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background-color: #FFA41B;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+/*End of Check My Work Button*/
