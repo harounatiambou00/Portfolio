@@ -34,23 +34,23 @@ const Navbar = () => {
                             <a className="nav-link active text-warning" aria-current="page" href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">Home</a>
                         </li>
                         <li className="nav-item mx-2">
-                            <a className="nav-link" href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">About Me</a>
+                            <a className="nav-link" href="#About_Me_Section">About Me</a>
                         </li>
                         <li className="nav-item mx-2">
                             <a className="nav-link" href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">My Services</a>
                         </li>
                         <li className="nav-item mx-2">
-                            <a className="nav-link" href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">PortFolio</a>
+                            <a className="nav-link" href="#Portfolio_Section">PortFolio</a>
                         </li>
                         <li className="nav-item mx-2">
                             <a className="nav-link" href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">Contact Me</a>
                         </li>
                         <li className="nav-item mx-2" id="Social_Media_Icons">
                             <div className="LinkedIn_Icon">
-                                <a href="https://www.linkedin.com/in/abdoul-wahabou-harouna-tiambou-475099210/"><i class="fab fa-linkedin-in"></i></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/abdoul-wahabou-harouna-tiambou-475099210/" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                             <div className="Github_Icon">
-                                <a href="https://github.com/harounatiambou00/Portfolio"><i class="fab fa-github"></i></a>
+                                <a target="_blank" href="https://github.com/harounatiambou00" rel="noreferrer"><i class="fab fa-github"></i></a>
                             </div>
                         </li>
                     </ul>

@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import Particles from 'react-tsparticles';
+import AboutMe from './components/About_Me';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
@@ -27,7 +29,7 @@ function App() {
               enable: true,
               outMode: "bounce",
               random: false,
-              speed: 2,
+              speed: 0.5,
               straight: false,
             },
             number: {
@@ -49,6 +51,8 @@ function App() {
       />
       <Navbar />
       <HeroSection />
+      <AboutMe />
+      <Portfolio />
     </div>
   );
 }

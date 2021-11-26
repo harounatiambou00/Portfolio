@@ -1,10 +1,10 @@
 const CheckMyWorkButton = () => {
     return(
         <div className="wrapper">
-            <div className="CheckMyWorkButton">
+            <a className="CheckMyWorkButton" href="#Portfolio_Section">
                 <div className="CheckMyWorkButtonLabel">Check My Work</div>
                 <span><i class="fas fa-caret-down"></i></span>
-            </div>
+            </a>
         </div>
     )
 } 

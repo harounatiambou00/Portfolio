@@ -1,4 +1,14 @@
+.Section_Title{
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+  color: #1A2238;
+}
+
 /*Navbar*/
+nav{
+  z-index: 99999;
+}
+ 
 .Brand{
   font-family: "Nosifer", cursive;
     color: #FFA41B;
@@ -24,12 +34,19 @@
 }
 
 /*--------------Hero Section-----------*/
+.tsparticles-canvas-el{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 1;
+}
+
 .HeroSection{
   background: url(./assets/herosection.jpg) no-repeat;
   width: 100%;
   background-size: cover;
   background-position: center;
-  height: 89vh;
+  height: 91vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -135,3 +152,62 @@
 }
 
 /*End of Check My Work Button*/
+
+
+/*---------------About Me Section--------------*/
+#HTML_Bar_Span i{
+  color: #e34f26;
+}
+
+#HTML_Bar_Progress div{
+  background-color: #e34f26;
+}
+
+
+#CSS_Bar_Span i{
+  color: #0085ad;
+}
+
+#CSS_Bar_Progress div{
+  background-color: #0085ad;
+}
+
+
+
+#Bootstrap_Bar_Span i{
+  color: #003666;
+}
+
+#Bootstrap_Bar_Progress div{
+  background-color: #003666;
+}
+
+
+#JavaScript_Bar_Span i{
+  color: #f7df1e;
+}
+
+#JavaScript_Bar_Progress div{
+  background-color: #f7df1e;
+}
+
+#React_Bar_Span i{
+  color: #00d8ff;
+}
+
+#React_Bar_Progress div{
+  background-color: #00d8ff;
+}
+
+#Laravel_Bar_Span i{
+  color: #f55247;
+}
+
+#Laravel_Bar_Progress div{
+  background-color: #f55247;
+}
+
+#Csharp_Bar_Progress div{
+  background-color: #49176d;
+}
+
