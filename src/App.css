@@ -1,4 +1,10 @@
 /*Navbar*/
+.Brand{
+  font-family: "Nosifer", cursive;
+    color: #FFA41B;
+    font-size: 2em;
+}
+
 .LinkedIn_Icon a{
   color: #0072b1;
 }
@@ -17,7 +23,7 @@
   color:white;
 }
 
-
+/*--------------Hero Section-----------*/
 .HeroSection{
   background: url(./assets/herosection.jpg) no-repeat;
   width: 100%;
@@ -40,13 +46,15 @@
   background: rgba(26, 34, 56, 0.6);
 }
 
-
-
-.Brand{
-  font-family: "Nosifer", cursive;
-    color: #FFA41B;
-    font-size: 2em;
+.Description_Technologies{
+  color: #FFA41B;
+  font-size: 1em;
+  font-family: "Audiowide", sans-serif;
 }
+
+
+
+
 
 /*Check My Work Button*/
 .wrapper{
@@ -61,6 +69,7 @@
   justify-content: center;
   position: relative;
   z-index: 2;
+  padding: 0%;
 }
 
 .wrapper .CheckMyWorkButton span{
