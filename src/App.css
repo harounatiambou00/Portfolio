@@ -9,6 +9,20 @@ nav{
   z-index: 99999;
 }
  
+#My_Service_Not_Started_Popup_Label{
+  font-family: "Genos", sans-serif;
+  opacity: 1;
+  font-weight: bold;
+  color: black;
+}
+
+#My_Service_Not_Started_Popup_Content{
+  font-family: "Genos", sans-serif;
+  opacity: 1;
+  font-weight: bold;
+  color: black;
+}
+
 .Brand{
   font-family: "Nosifer", cursive;
     color: #FFA41B;

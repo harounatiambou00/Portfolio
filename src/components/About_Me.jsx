@@ -27,8 +27,7 @@ const AboutMe = () => {
                                     strings={[
                                         "My complete name is Harouna Tiambou Abdoul Wahabou. I'm 19 years old and i'm proudly from Niger, my dear country. I spent my whole childhood there, as well as my primary and college studies.", 
                                         "Now I'm in Tunisia, where i'm preparing a three years degree  in software engineering at the Faculty of Sciences of Monastir. ",
-                                        "I also work on Tiamshop, a project that is close to my heart. Tiamshop is an e-commerce project that I started in September 2021.",
-                                         "", "", "", "", "", ""
+                                        "I also work on Tiamshop, a project that is close to my heart. Tiamshop is an e-commerce project that I started in September 2021."
                                     ]}
                                     typeSpeed = {80}
                                     backSpeed = {20}

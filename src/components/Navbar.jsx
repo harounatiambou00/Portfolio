@@ -16,7 +16,7 @@ const Navbar = () => {
         <Header id="Header_Section">
             <nav className="navbar navbar-expand-lg navbar-dark">
             <div className="container p-0">
-                <a className="navbar-brand" href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">
+                <a className="navbar-brand" href="#HeaderSection">
                    <Typed 
                         className="Brand"
                         strings={["Harouna", "TIAMBOU", "Abdoul", "Wahabou"]}
@@ -37,7 +37,24 @@ const Navbar = () => {
                             <a className="nav-link" href="#About_Me_Section">About Me</a>
                         </li>
                         <li className="nav-item mx-2">
-                            <a className="nav-link" href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">My Services</a>
+                            <button className="nav-link btn" data-bs-toggle="modal" data-bs-target="#My_Service_Not_Started_Popup">My Services</button>
+                            <div class="modal fade" id="My_Service_Not_Started_Popup" tabindex="-1" aria-labelledby="My_Service_Not_Started_Popup_Label" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content" id="My_Service_Not_Started_Popup_Content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title text-dark fs-3" id="My_Service_Not_Started_Popup_Label">Sorry I didn't start working yet.</h3>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body fs-6">
+                                            I didn't start selling my services because of the lack of time.
+                                            As I am a student, it is impossible for me to attack both fronts.
+                                            But if you want some little services like frontend development in holidays I can help you.
+                                            So <em><a href="#ContactMe_Section ">Contact me</a></em>   <i class="fas fa-smile-wink"></i>
+                                        </div>
+      
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                         <li className="nav-item mx-2">
                             <a className="nav-link" href="#Portfolio_Section">PortFolio</a>
