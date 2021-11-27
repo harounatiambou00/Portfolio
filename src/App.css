@@ -70,7 +70,23 @@ nav{
 }
 
 
+#gototopbutton{
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 99999;
+}
 
+#gototopbutton i {
+  color: white;
+  font-size: 15px;
+}
 
 
 /*Check My Work Button*/

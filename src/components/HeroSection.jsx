@@ -23,7 +23,7 @@ const HeroSection = () => {
                     technoligies are : <br />
                     <Typed
                         className="Description_Technologies"
-                        strings={["ASP .NET", "React JS", "Laravel8", "HTML5", "CSS3", "C#"]}
+                        strings={["ASP .NET", "React JS", "Laravel8", "HTML5", "CSS3", "C#", "SQL Server", "SQL"]}
                         typeSpeed = {40}
                         backSpeed = {60}
                         loop
@@ -33,6 +33,9 @@ const HeroSection = () => {
                 </h4>
             </div>
             <CheckMyWorkButton />
+            <a href="#Header_Section" id="gototopbutton" className="bg-dark">
+                <i class="fas fa-arrow-up"></i>
+            </a>
         </div>
     )
 }
