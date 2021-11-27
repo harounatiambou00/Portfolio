@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.18453ef1.chunk.css",
+    "main.js": "/static/js/main.62fb1918.chunk.js",
+    "main.js.map": "/static/js/main.62fb1918.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0dd2c35f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0dd2c35f.js.map",
+    "static/css/2.383c0125.chunk.css": "/static/css/2.383c0125.chunk.css",
+    "static/js/2.74eb31e4.chunk.js": "/static/js/2.74eb31e4.chunk.js",
+    "static/js/2.74eb31e4.chunk.js.map": "/static/js/2.74eb31e4.chunk.js.map",
+    "static/js/3.fa547ab7.chunk.js": "/static/js/3.fa547ab7.chunk.js",
+    "static/js/3.fa547ab7.chunk.js.map": "/static/js/3.fa547ab7.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.18453ef1.chunk.css.map": "/static/css/main.18453ef1.chunk.css.map",
+    "static/js/2.74eb31e4.chunk.js.LICENSE.txt": "/static/js/2.74eb31e4.chunk.js.LICENSE.txt",
+    "static/media/AboutMeSection.e0f2c3c7.png": "/static/media/AboutMeSection.e0f2c3c7.png",
+    "static/media/InfoSchoolProjectImg.7221e373.png": "/static/media/InfoSchoolProjectImg.7221e373.png",
+    "static/media/PortfolioProjectImg.1ab8b6cc.png": "/static/media/PortfolioProjectImg.1ab8b6cc.png",
+    "static/media/TiamShopProjectImg.ac2b75d1.png": "/static/media/TiamShopProjectImg.ac2b75d1.png",
+    "static/media/TiamTaskProjectImg.27811b75.png": "/static/media/TiamTaskProjectImg.27811b75.png",
+    "static/media/App.css": "/static/media/herosection.9a1cb4ba.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0dd2c35f.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.74eb31e4.chunk.js",
+    "static/css/main.18453ef1.chunk.css",
+    "static/js/main.62fb1918.chunk.js"
+  ]
+}
