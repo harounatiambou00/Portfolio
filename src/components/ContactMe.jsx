@@ -58,7 +58,7 @@ const ContactMe = () => {
                         </div>
                     </form>
                 </div>
-                <div className="col-12 col-lg-4 mt-3 mt-lg-0 Contact">
+                <div className="col-12 col-lg-4 mt-3 mt-lg-0 mb-5 pb-3 Contact">
                     <h4 className="mt-4 mb-5 text-light text-center">
                         Other ways
                     </h4>
