@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection';
 import Particles from 'react-tsparticles';
 import AboutMe from './components/About_Me';
 import Portfolio from './components/Portfolio';
+import ContactMe from './components/ContactMe';
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
       <HeroSection />
       <AboutMe />
       <Portfolio />
+      <ContactMe />
     </div>
   );
 }

@@ -87,6 +87,7 @@ nav{
   position: relative;
   z-index: 2;
   padding: 0%;
+  text-decoration: none;
 }
 
 .wrapper .CheckMyWorkButton span{
@@ -211,3 +212,189 @@ nav{
   background-color: #49176d;
 }
 
+
+
+#ContactMe_Section{
+  min-height: 100vh;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#ContactMe_Section .Section_Title{
+  color:#1A2238;
+}
+
+#ContactMe_Section #content{
+  background-color: white;
+  min-height: 500px;
+  border-radius: 5px;
+  width: 80%;
+  padding: 0%;
+}
+
+
+#ContactMe_Section #content .Contact{
+  background-color: #1A2238;
+  border-radius: 5px;
+}
+
+#ContactMe_Form{
+  padding: 1%;
+}
+
+#ContactMe_Form div label{
+  opacity: 1;
+}
+
+#ContactMe_Form input{
+  width: 100%;
+  border: none;
+  border-bottom:2px solid #1A2238;
+  height: 30px;
+  margin-top: 3%;
+  margin-bottom: 10%;
+}
+
+#ContactMe_Form input:active,
+#ContactMe_Form input:focus{
+  outline: none;
+}
+
+#ContactMe_Form textarea{
+  width: 100%;
+  border: none;
+  border-bottom:2px solid #1A2238;
+  height: 100px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#ContactMe_Form textarea:hover,
+#ContactMe_Form textarea:focus{
+  outline: none;
+}
+
+#ContactMe_Form div #Submit_Button{
+  background-color: #1A2238;
+  border: none;
+  font-size: 1.3em;
+  width: 175px;
+  color: #FFA41B;
+  border-radius: 25px;
+  font-family: "Audiowide", sans-serif;
+  padding: 1%;
+  transition: all 0.4s ease-in;
+  height: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+#ContactMe_Form div #Submit_Button:hover{
+  color: #1A2238;
+  background-color: #FFA41B;
+}
+
+#ContactMe_Section .Contact #Social_Medias_Icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#ContactMe_Section .Contact #Social_Medias_Icons #Linked_In{
+  background-color: #0072b1;
+  border-radius: 50%;
+  padding: 10px;
+  height: 35px;
+  width: 35px;
+  line-height: 15px;
+  transition: all 0.4s ease-in-out;
+}
+
+#ContactMe_Section .Contact #Social_Medias_Icons #Linked_In i{
+  color: white;
+  font-size: 15px;
+}
+
+#ContactMe_Section .Contact #Social_Medias_Icons #Linked_In:hover{
+  background-color: white;
+}
+
+#ContactMe_Section .Contact #Social_Medias_Icons #Linked_In:hover i{
+  color: #0072b1;
+}
+
+
+#ContactMe_Section .Contact #Social_Medias_Icons #Facebook{
+  background-color: #1877f2;
+  border-radius: 50%;
+  padding: 10px;
+  height: 35px;
+  width: 35px;
+  line-height: 15px;
+  transition: all 0.4s ease-in-out;
+}
+
+#ContactMe_Section .Contact #Social_Medias_Icons #Facebook i{
+  color: white;
+  font-size: 15px;
+}
+
+#ContactMe_Section .Contact #Social_Medias_Icons #Facebook:hover{
+  background-color: white;
+}
+
+#ContactMe_Section .Contact #Social_Medias_Icons #Facebook:hover i{
+  color: #1877f2;
+}
+
+#ContactMe_Section .Contact #Social_Medias_Icons #Instagram{
+  background-color: #e1306c;
+  border-radius: 50%;
+  padding: 10px;
+  height: 35px;
+  width: 35px;
+  line-height: 15px;
+  transition: all 0.4s ease-in-out;
+}
+
+#ContactMe_Section .Contact #Social_Medias_Icons #Instagram i{
+  color: white;
+  font-size: 15px;
+}
+
+#ContactMe_Section .Contact #Social_Medias_Icons #Instagram:hover{
+  background-color: white;
+}
+
+#ContactMe_Section .Contact #Social_Medias_Icons #Instagram:hover i{
+  color: #e1306c;
+}
+
+
+#ContactMe_Section .Contact #Social_Medias_Icons #Twitter{
+  background-color: #1da1f2;
+  border-radius: 50%;
+  padding: 10px;
+  height: 35px;
+  width: 35px;
+  line-height: 15px;
+  transition: all 0.4s ease-in-out;
+}
+
+#ContactMe_Section .Contact #Social_Medias_Icons #Twitter i{
+  color: white;
+  font-size: 15px;
+}
+
+#ContactMe_Section .Contact #Social_Medias_Icons #Twitter:hover{
+  background-color: white;
+}
+
+#ContactMe_Section .Contact #Social_Medias_Icons #Twitter:hover i{
+  color: #1da1f2;
+}

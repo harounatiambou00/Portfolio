@@ -43,7 +43,7 @@ const Navbar = () => {
                             <a className="nav-link" href="#Portfolio_Section">PortFolio</a>
                         </li>
                         <li className="nav-item mx-2">
-                            <a className="nav-link" href="https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md">Contact Me</a>
+                            <a className="nav-link" href="#ContactMe_Section">Contact Me</a>
                         </li>
                         <li className="nav-item mx-2" id="Social_Media_Icons">
                             <div className="LinkedIn_Icon">
