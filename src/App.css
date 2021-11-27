@@ -330,11 +330,14 @@ nav{
   height: 30px;
   margin-top: 3%;
   margin-bottom: 10%;
+  transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
 #ContactMe_Form input:active,
+#ContactMe_Form input:valid,
 #ContactMe_Form input:focus{
   outline: none;
+  border-bottom-color: #FFA41B;
 }
 
 #ContactMe_Form textarea{
@@ -344,11 +347,14 @@ nav{
   height: 100px;
   margin-top: 3%;
   margin-bottom: 3%;
+  transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
-#ContactMe_Form textarea:hover,
+#ContactMe_Form textarea:valid,
+#ContactMe_Form textarea:active,
 #ContactMe_Form textarea:focus{
   outline: none;
+  border-bottom-color: #FFA41B;
 }
 
 #ContactMe_Form div #Submit_Button{
