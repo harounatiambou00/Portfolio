@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutMeSectionImg from '../assets/AboutMeSection.png'
+import Typed from 'react-typed'
 
 const AboutMe = () => {
     return(
@@ -20,10 +21,19 @@ const AboutMe = () => {
                     <div id="AboutMeImgCard" class="card text-white rounded-pill" >
                         <img id="AboutMeImg" src={AboutMeSectionImg} height="500px" class="card-img rounded-pill" alt="..." />
                         <div id="AboutMeImgOverlay" class="card-img-overlay rounded-pill">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title Section_Title text-warning"><i class="fas fa-smile fs-2"></i><br />Who am i ?</h5>
                             <p class="card-text">
-                                I am a young student from Niger who is passionate about IT.<br />
-                                Currently, I am preparing a three years degree in software engineering at the Faculty of Sciences of Monastir in Tunisia.
+                               <Typed
+                                    strings={[
+                                        "My complete name is Harouna Tiambou Abdoul Wahabou. I'm 19 years old and i'm proudly from Niger, my dear country. I spent my whole childhood there, as well as my primary and college studies.", 
+                                        "Now I'm in Tunisia, where i'm preparing a three years degree  in software engineering at the Faculty of Sciences of Monastir. ",
+                                        "I also work on Tiamshop, a project that is close to my heart. Tiamshop is an e-commerce project that I started in September 2021.",
+                                         "", "", "", "", "", ""
+                                    ]}
+                                    typeSpeed = {80}
+                                    backSpeed = {20}
+                                    loop
+                               />
                             </p>
                         </div>
                     </div>
