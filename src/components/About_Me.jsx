@@ -8,12 +8,23 @@ const AboutMe = () => {
                 About Me
             </div>
             <div className="row">
-                <div className="col-12 col-md-6 mb-5 mb-lg-0 text-center pt-lg-5">
-                    <div class="card text-white rounded-pill" >
-                        <img src={AboutMeSectionImg} height="500px" class="card-img rounded-pill" alt="..." />
-                        <div class="card-img-overlay">
+                <div className="col-12 col-md-6 mb-5 mb-lg-0 text-center">
+                    <div class="alert alert-info p-1 d-flex align-items-center text-center" role="alert">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-info-square-fill flex-shrink-0 me-2" viewBox="0 0 16 16">
+                            <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                        </svg>
+                        <div>
+                            Click on the image to have more information about me.
+                        </div>
+                    </div>
+                    <div id="AboutMeImgCard" class="card text-white rounded-pill" >
+                        <img id="AboutMeImg" src={AboutMeSectionImg} height="500px" class="card-img rounded-pill" alt="..." />
+                        <div id="AboutMeImgOverlay" class="card-img-overlay rounded-pill">
                             <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
+                            <p class="card-text">
+                                I am a young student from Niger who is passionate about IT.<br />
+                                Currently, I am preparing a three years degree in software engineering at the Faculty of Sciences of Monastir in Tunisia.
+                            </p>
                         </div>
                     </div>
                 </div>

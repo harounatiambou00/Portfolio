@@ -33,7 +33,7 @@ const HeroSection = () => {
                 </h4>
             </div>
             <CheckMyWorkButton />
-            <a href="#Header_Section" id="gototopbutton" className="bg-dark">
+            <a href="#Header_Section" id="gototopbutton" className="">
                 <i class="fas fa-arrow-up"></i>
             </a>
         </div>
