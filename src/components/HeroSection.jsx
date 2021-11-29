@@ -19,7 +19,7 @@ const HeroSection = () => {
                 </ Name>
                 <h4>
                     I am a young student from Niger who is passionate about IT.<br />
-                    I' m a fullsatack developper since 2020. My favorite <br />
+                    I' m a fullstack developper since 2020. My favorite <br />
                     technoligies are : <br />
                     <Typed
                         className="Description_Technologies"
