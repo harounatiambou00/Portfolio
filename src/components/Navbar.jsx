@@ -42,7 +42,7 @@ const Navbar = () => {
                                 <div class="modal-dialog">
                                     <div class="modal-content" id="My_Service_Not_Started_Popup_Content">
                                         <div class="modal-header">
-                                            <h4 class="modal-title text-dark fs-3" id="My_Service_Not_Started_Popup_Label">Sorry I haven't started yet working yet.</h4>
+                                            <h4 class="modal-title text-dark fs-3" id="My_Service_Not_Started_Popup_Label">Sorry I haven't started working yet.</h4>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body fs-6">
